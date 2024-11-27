@@ -89,18 +89,19 @@ public class Calculator implements ActionListener {
     frame.add(textField);
     frame.setVisible(true);
     }
-    public int add(int a, int b){
-        return a + b;
-    }
-    public int subtract(int a, int b){
-        return a - b;
-    }
-    public int divide(int a, int b){
-        return a / b;
-    }
-    public int multiply(int a, int b){
-        return a * b;
-    }
+    // This has been added with new features and workflows
+//    public int add(int a, int b){
+//        return a + b;
+//    }
+//    public int subtract(int a, int b){
+//        return a - b;
+//    }
+//    public int divide(int a, int b){
+//        return a / b;
+//    }
+//    public int multiply(int a, int b){
+//        return a * b;
+//    }
 
 
     @Override
